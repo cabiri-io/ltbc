@@ -1,0 +1,50 @@
+{
+  "name": "@cabiri-io/ltbc",
+  "version": "0.1.0",
+  "description": "Wraps a function to allow running chaos experiments.",
+  "main": "dist/index.js",
+  "keywords": [
+    "http",
+    "https",
+    "functions",
+    "cloud",
+    "mock",
+    "chaos",
+    "experiment",
+    "aws",
+    "azure",
+    "gcloud"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/cabiri-io/ltbc",
+  "bugs": "https://github.com/cabiri-io/ltbc/issues",
+  "author": {
+    "name": "Kamil Zuzda",
+    "email": "kamil@cabiri.io",
+    "url": "https://cabiri.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cabiri-io/ltbc.git"
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "prepare": "npm run build",
+    "test": "jest",
+    "watch": "tsc -w",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@cabiri-io/mitm": "1.8.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/pino": "^6.0.0",
+    "jest": "^27.2.1",
+    "pino": "^6.0.0",
+    "pino-pretty": "^7.0.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.3"
+  }
+}
