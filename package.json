@@ -1,6 +1,6 @@
 {
   "name": "@cabiri-io/ltbc",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Wraps a function to allow running chaos experiments.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

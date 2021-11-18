@@ -277,3 +277,4 @@ const chaos = <T extends PromiseFunction>(
 }
 
 export { chaos }
+export type { ChaosConfig }
